@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Foldit:wght@100..900&family=Plaster&family=Rajdhani:wght@300;400;500;600;700&family=Unica+One&display=swap');
+
+.plaster-regular {
+  font-family: "Plaster", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.economica-regular {
+  font-family: "Economica", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.economica-bold {
+  font-family: "Economica", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.economica-regular-italic {
+  font-family: "Economica", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.economica-bold-italic {
+  font-family: "Economica", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+.foldit {
+  font-family: "Foldit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+
+.rajdhani-light {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.rajdhani-regular {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rajdhani-medium {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.rajdhani-semibold {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.rajdhani-bold {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+.table-container {
+    width:100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow-x: auto;
+}
+
+.responsive-table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+.responsive-table th,
+.responsive-table td {
+  padding: 0.75rem 1rem;
+}
+
+@media (max-width: 600px) {
+  .responsive-table th,
+  .responsive-table td {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+}
+
+body {
+    background-color: black;
+}
+
+button {
+    width:400px;
+    height:200px;
+    font-size:20px;
+    font-family:"rajdhani", cursive;
+    color: white;
+}
+
+.button_1 button {
+    background-image: url('https://t3.ftcdn.net/jpg/14/34/22/82/360_F_1434228231_ttxqmmN7Vl6ebuYdqBbH0aDA8I4BMi21.jpg');
+    background-repeat:no-repeat;
+}
+
+.button_2 button {
+    background-image: url('https://t4.ftcdn.net/jpg/14/77/59/57/360_F_1477595764_ekTFh212AKh1pCGpJjJw4uFaiPiPJbAD.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.button_3 button {
+    background-image: url('https://t3.ftcdn.net/jpg/09/34/70/52/360_F_934705227_Z9odkAhXXPtNql01UQpG9qBP06tm7ovU.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.button_4 button {
+    background-image:url('https://static.vecteezy.com/system/resources/thumbnails/052/261/563/small_2x/futuristic-alien-cityscape-with-shadowy-spires-under-a-cosmic-sunset-showcasing-a-mesmerizing-blend-of-sci-fi-and-fantasy-in-an-uncharted-world-video.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.button_5 button {
+    background-image:url('https://t4.ftcdn.net/jpg/07/24/47/15/360_F_724471562_jxRrZBXK9LT7WJboWGMQWytSeFHiyAgX.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.button_6 button {
+    background-image:url('https://static.vecteezy.com/system/resources/thumbnails/043/542/631/small/red-comic-cartoon-background-design-template-vector.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
