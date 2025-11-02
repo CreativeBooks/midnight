@@ -88,6 +88,7 @@
 .responsive-table th,
 .responsive-table td {
   padding: 0.75rem 1rem;
+  text-align: left;
 }
 
 @media (max-width: 600px) {
@@ -105,11 +106,30 @@ body {
 
 button {
     width:400px;
+    max-width:600px;
+    min-height: 100px;
     height:200px;
-    font-size:20px;
+    font-size:1.25rem;
     font-family:"rajdhani", cursive;
     color: white;
 }
+
+.button-container {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap:1rem;
+    padding:1rem;
+}
+
+@media screen and (max-width: 600px) {
+    .button-container button {
+        width: 90%;             
+        height: auto;
+        aspect-ratio: 2/1;      
+    }
+}
+
 
 .button_1 button {
     background-image: url('https://t3.ftcdn.net/jpg/14/34/22/82/360_F_1434228231_ttxqmmN7Vl6ebuYdqBbH0aDA8I4BMi21.jpg');
@@ -144,4 +164,37 @@ button {
     background-image:url('https://static.vecteezy.com/system/resources/thumbnails/043/542/631/small/red-comic-cartoon-background-design-template-vector.jpg');
     background-repeat:no-repeat;
     background-size:cover;
+}
+
+.button_7 button {
+    background-image: url('https://img.pikbest.com/wp/202406/percussion-instrument-wallpaper-background-with-colorful-instruments_9607668.jpg!f305cw');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.button_8 button {
+    background-image:url('https://www.shutterstock.com/image-photo/studio-microphone-pop-shield-on-600nw-1831180186.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.piano button{
+    background-image: url('https://png.pngtree.com/background/20250125/original/pngtree-background-of-piano-keyboard-close-up-electronic-piano-keys-picture-image_15519369.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.guitar button {
+    background-image: url('https://t4.ftcdn.net/jpg/05/06/67/21/360_F_506672143_3SnTCzPF6Bfz5ipHShUBu4EWrgUlK0IU.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.violin button {
+    background-image:url('https://images8.alphacoders.com/391/thumb-1920-391320.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.hidden {
+    display: none;
 }

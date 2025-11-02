@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="download (1).png" type="image/png">
+    <title>Instrumental</title>
+    <style>
+        body {
+            background-color: black;
+            transition: opacity 0.5s ease;
+            opacity: 1;
+            color: white;
+        }
+
+        body.fade-out {
+            opacity: 0;
+        }
+
+        button {
+            width: 300px;
+            max-width: 600px;
+            min-height: 100px;
+            height: 100px;
+            font-size: 1.25rem;
+            font-family: "rajdhani", cursive;
+            color: white;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1 style="font-family: 'Plaster', cursive; text-align: center;color:white">Instrumental</h1>
+    <h2 style="font-family: 'economica', cursive;text-align: center;color:white">Pick Your Instrument</h2>
+    <div class="table-container responsive-table button container">
+        <div class="button-container">
+            <div class="piano">
+                <button onclick="showI('piano')">Piano</button>
+            </div>
+            <div class="guitar">
+                <button onclick="showI('guitar')">Guitar</button>
+            </div>
+            <div class="violin">
+                <button onclick="showI('violin')">Violin</button>
+            </div>
+        </div>
+
+
+
+    </div>
+    <section id="piano" class="music hidden">
+        fejnihiuhfihfeu
+    </section>
+    <section id="guitar" class="music hidden">
+        fjknsfohrowhrowrhjoewh
+    </section>
+    <section id="violin" class="music hidden">
+
+    </section>
+    
+    <script>
+        function showI(instruID) {
+            document.querySelectorAll('.music').forEach(c => c.classList.add('hidden'));
+            const instrument = document.getElementById(instruID);
+            instrument.classList.remove('hidden');
+            window.scrollTo({ top: 0, behavior: "auto" });
+        }
+    </script>
+</body>
+
+</html>
