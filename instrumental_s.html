@@ -20,10 +20,10 @@
         }
 
         button {
-            width: 300px;
-            max-width: 600px;
-            min-height: 100px;
-            height: 100px;
+            width: 200px;
+            max-width: 400px;
+            min-height: 50px;
+            height: 50px;
             font-size: 1.25rem;
             font-family: "rajdhani", cursive;
             color: white;
@@ -52,23 +52,43 @@
 
     </div>
     <section id="piano" class="music hidden">
-        fejnihiuhfihfeu
-    </section>
-    <section id="guitar" class="music hidden">
-        fjknsfohrowhrowrhjoewh
-    </section>
-    <section id="violin" class="music hidden">
+        <button onclick="previousPage()"
+            style="background-color:white;color:black;width:100px;height:15px;font-size: 12px;display:block">Previous
+            Page</button>
+        <h1 style="text-align: center;margin-top: 0px;">Piano Suspense Samples</h1>
+        <div style="display:flex; flex-wrap: wrap; justify-content: center; gap:20px;">
+
+            <div class="sample">
+                <p>Franz Liszt – Totentanz</p>
+                <audio controls>
+                    <source src="DD.mp4" type="audio/mp4">
+                </audio>
+                <p>Full Song: <a href="https://www.youtube.com/watch?v=4dONTGGlmPc&list=RD4dONTGGlmPc&start_radio=1"
+                        target="_blank">Click Here</a></p>
+            </div>
+
+
+            <div class="sample">
+                <p>Psycho Theme</p>
+                <audio controls>
+                    <source src="Psycho.mp4" type="audio/mp4">
+                </audio>
+                <p>Full Song: <a href="https://www.youtube.com/watch?v=k7_vvz6vcyw" target="_blank">Click Here</a></p>
+            </div>
+
+        </div>
 
     </section>
-    
-    <script>
-        function showI(instruID) {
-            document.querySelectorAll('.music').forEach(c => c.classList.add('hidden'));
-            const instrument = document.getElementById(instruID);
-            instrument.classList.remove('hidden');
-            window.scrollTo({ top: 0, behavior: "auto" });
-        }
-    </script>
+    <section id="guitar" class="music hidden">
+        <button onclick="previousPage()"
+            style="background-color:white;color:black;width:100px;height:15px;font-size: 12px;">Previous Page</button>
+    </section>
+    <section id="violin" class="music hidden">
+        <button onclick="previousPage()"
+            style="background-color:white;color:black;width:100px;height:15px;font-size: 12px;">Previous Page</button>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
