@@ -4,6 +4,7 @@ function showI(instruID) {
     instrument.classList.remove('hidden');
     document.querySelector('h1').style.display = 'none'
     document.querySelector('h2').style.display = 'none'
+    document.querySelector('button').style.display = 'none'
     const buttons = document.querySelector('.button-container');
     buttons.style.display = 'none';
     window.scrollTo({ top: 0, behavior: "auto" });
@@ -12,6 +13,7 @@ function showI(instruID) {
 function previousPage () {
     document.querySelector('h1').style.display = '';
     document.querySelector('h2').style.display = '';
+    document.querySelector('button').style.display = '';
     const buttons = document.querySelector('.button-container');
     buttons.style.display = '';
     document.querySelectorAll('.music').forEach(c => c.classList.add('hidden'));
@@ -24,5 +26,6 @@ audios.addEventListener('play', () => {
             otherAudio.pause();
             otherAudio.currentTime = 0;
         }
-    })
-})
+    });
+});
+

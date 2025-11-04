@@ -33,6 +33,11 @@
 </head>
 
 <body>
+    <a href="suspense.html">
+        <button
+            style="background-color: white; color:black;width:200px;min-height:50px;font-size: 20px;height:50px;">Previous
+            Page</button>
+    </a>
     <h1 style="font-family: 'Plaster', cursive; text-align: center;color:white">Instrumental</h1>
     <h2 style="font-family: 'economica', cursive;text-align: center;color:white">Pick Your Instrument</h2>
     <div class="table-container responsive-table button container">
@@ -52,11 +57,15 @@
 
     </div>
     <section id="piano" class="music hidden">
-        <button onclick="previousPage()"
-            style="background-color:white;color:black;width:100px;height:15px;font-size: 12px;display:block">Previous
-            Page</button>
-        <h1 style="text-align: center;margin-top: 0px;">Piano Suspense Samples</h1>
-        <div style="display:flex; flex-wrap: wrap; justify-content: center; gap:20px;">
+        <div class="header-content">
+            <button onclick="previousPage()"
+                style="background-color:white;color:black;width:100px;height:15px;font-size: 12px;display:block">Previous
+                Page</button>
+            <div style="margin:0 auto;">
+                <h1 style="text-align: center;display: inline-block;margin-top:6px ;">Piano Suspense Samples</h1>
+            </div>
+        </div>
+        <div class="content">
 
             <div class="sample">
                 <p>Franz Liszt – Totentanz</p>
@@ -67,7 +76,6 @@
                         target="_blank">Click Here</a></p>
             </div>
 
-
             <div class="sample">
                 <p>Psycho Theme</p>
                 <audio controls>
@@ -76,12 +84,63 @@
                 <p>Full Song: <a href="https://www.youtube.com/watch?v=k7_vvz6vcyw" target="_blank">Click Here</a></p>
             </div>
 
+            <div class="sample">
+                <p>Lux Aeterna - Requiem for a Dream</p>
+                <audio controls>
+                    <source src="Dream.mp4" type="audio/mp4">
+                </audio>
+                <p>Full Song: <a href="https://www.youtube.com/watch?v=C7Yjy5vASas&list=RDb8HVQtIoBYU&index=2"
+                        target="_blank">Click Here</a></p>
+            </div>
+
+            <div class="sample">
+                <p>Skyrim - Dragonborn</p>
+                <audio controls>
+                    <source src="Skyrim.mp4" type="audio/mp4">
+                </audio>
+                <p>Full Song: <a href="https://www.youtube.com/watch?v=1PetRVcM2sk&list=RDb8HVQtIoBYU&index=5"
+                        target="_blank">Click Here</a></p>
+            </div>
+
         </div>
 
     </section>
     <section id="guitar" class="music hidden">
-        <button onclick="previousPage()"
-            style="background-color:white;color:black;width:100px;height:15px;font-size: 12px;">Previous Page</button>
+        <div class="header-content">
+            <button onclick="previousPage()"
+                style="background-color:white;color:black;width:100px;height:15px;font-size: 12px;">Previous
+                Page</button>
+            <div style="margin: 0 auto;">
+                <h1 style="text-align: center;margin-top: 0px;">Guitar Suspense Samples</h1>
+            </div>
+        </div>
+        <div class="content">
+            <div class="sample">
+                <p>The X-Files Theme</p>
+                <audio controls>
+                    <source src="X-files.mp4" type="audio/mp4">
+                </audio>
+                <p>Full Song: <a href="https://www.youtube.com/watch?v=wd8U2EvnOFw&list=RDwd8U2EvnOFw&start_radio=1"
+                        target="_blank"></a>Click Here</p>
+            </div>
+
+            <div class="sample">
+                <p>Asturias - Isaac Albéniz</p>
+                <audio controls>
+                    <source src="asturias.mp4" type="audio/mp4">
+                </audio>
+                <p>Full Song: <a href="https://www.youtube.com/watch?v=inBKFMB-yPg&list=RDinBKFMB-yPg&start_radio=1"
+                        target="_blank">Click Here</a></p>
+            </div>
+
+            <div class="sample">
+                <audio controls>
+                    <source src="" type="audio/mp4">
+                </audio>
+                <p>Full Song: <a href="">Click Here</a></p>
+            </div>
+        </div>
+
     </section>
     <section id="violin" class="music hidden">
         <button onclick="previousPage()"

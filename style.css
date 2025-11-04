@@ -225,3 +225,15 @@ button {
 a {
     color:white;
 }
+
+.content {
+    display:flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap:20px;
+}
+
+.header-content {
+    display: flex;
+    flex-wrap: wrap;
+}
