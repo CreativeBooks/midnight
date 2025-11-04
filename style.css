@@ -197,6 +197,18 @@ button {
     background-size: cover;
 }
 
+.flute button {
+    background-image: url('https://st4.depositphotos.com/1356916/21147/i/450/depositphotos_211470966-stock-photo-flute-instrument-flutist-hands-playing.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.drums button {
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20231006/pngtree-d-render-of-a-sleek-black-professional-drum-kit-in-a-image_13534256.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .hidden {
     display: none;
 }
