@@ -209,6 +209,41 @@ button {
     background-size: cover;
 }
 
+.pop button {
+    background-image: url('https://media.gettyimages.com/id/1127455724/video/disco-boombox-party.jpg?s=640x640&k=20&c=uPYWO196ueNDjHj7V4hZpaXygauVJMliEnVYHBJd8T4=');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jpop button {
+    background-image: url('https://www.shutterstock.com/shutterstock/videos/1108263521/thumb/1.jpg?ip=x480');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.kpop button {
+    background-image: url('https://media.istockphoto.com/id/1499970901/vector/golden-stadium-lights-with-rays-on-a-dark-background.jpg?s=612x612&w=0&k=20&c=EBkX92BcZHlxeLNhE6Q07DIqu7u4PqlTvORpDqM7FTY=');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bollywood button {
+    background-image: url('https://www.shutterstock.com/image-photo/vintage-blackandwhite-film-reel-unwinding-600nw-2614125337.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.european button {
+    background-image: url('https://img.freepik.com/premium-vector/silver-metal-studio-microphone-dark-background-with-map-europe-music-festival-background_141155-189.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cpop button {
+    background-image: url('https://img.pikbest.com/backgrounds/20220119/classical-music-ink-style-pipa_6243912.jpg!sw800');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .hidden {
     display: none;
 }

@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="download (1).png" type="image/png">
+    <title>Vocal</title>
+    <style>
+        body {
+            background-color: black;
+            transition: opacity 0.5s ease;
+            opacity: 1;
+            color: white;
+        }
+
+        body.fade-out {
+            opacity: 0;
+        }
+
+        button {
+            width: 200px;
+            max-width: 400px;
+            min-height: 100px;
+            height: 100px;
+            font-size: 1.25rem;
+            font-family: "rajdhani", cursive;
+            color: white;
+        }
+    </style>
+
+</head>
+
+<body>
+    <a href="suspense.html">
+        <button
+            style="background-color: white; color:black;width:200px;min-height:50px;font-size: 20px;height:50px;">Previous
+            Page</button>
+    </a>
+    <h1 style="font-family: 'Plaster', cursive; text-align: center;color:white">Vocal</h1>
+    <h2 style="font-family: 'economica', cursive;text-align: center;color:white">Pick Your Genre</h2>
+    <div class="table-container responsive-table button container">
+        <div class="button-container">
+            <div class="pop">
+                <button onclick="showI('pop')">Pop Music</button>
+            </div>
+            <div class="jpop">
+                <button onclick="showI('jpop')">J-Pop</button>
+            </div>
+            <div class="kpop">
+                <button onclick="showI('kpop')">K-Pop</button>
+            </div>
+            <div class="bollywood">
+                <button onclick="showI('bollywood')">Bollywood</button>
+            </div>
+            <div class="european">
+                <button onclick="showI('european')">European</button>
+            </div>
+            <div class="cpop">
+                <button onclick="showI('cpop')">C-Pop</button>
+            </div>
+        </div>
+
+
+
+    </div>
+    <section id="pop" class="music hidden">
+        <button onclick="previousPage()"
+            style="background-color:white;color:black;width:100px;min-height:25px;height:25px;font-size: 12px;display:block">Previous
+            Page</button>
+
+        <h1 style="text-align: center;margin-top:6px ;font-family: 'Plaster', cursive;">Pop Suspense Samples</h1>
+
+        <div class="content">
+
+            <div class="sample">
+                <p>Billie Eilish – bury a friend</p>
+                <audio controls>
+                    <source src="suspense vocal/friend.mp4" type="audio/mp4">
+                </audio>
+                <p>Full Song: <a href="https://www.youtube.com/watch?v=mveSunIhTZY&list=RDmveSunIhTZY&start_radio=1" target="_blank">Click Here</a></p>
+            </div>
+
+            <div class="sample">
+                <p>Halsey – Control</p>
+                <audio controls>
+                    <source src="suspense vocal/control.mp4" type="audio/mp4">
+                </audio>
+                <p>Full Song: <a href="https://www.youtube.com/watch?v=QpL8P8cEXxA&list=RDQpL8P8cEXxA&start_radio=1" target="_blank">Click Here</a></p>
+            </div>
+
+
+            <div class="sample">
+                <p>Lorde – Yellow Flicker Beat</p>
+                <audio controls>
+                    <source src="suspense vocal/yellow.mp4" type="audio/mp4">
+                </audio>
+                <p>Full Song: <a href="https://www.youtube.com/watch?v=e1S9HUNoI4k&list=RDe1S9HUNoI4k&start_radio=1" target="_blank">Click Here</a></p>
+            </div>
+
+
+            <div class="sample">
+                <p>Florence + The Machine – Seven Devils</p>
+                <audio controls>
+                    <source src="suspense vocal/seven.mp4" type="audio/mp4">
+                </audio>
+                <p>Full Song: <a href="https://www.youtube.com/watch?v=xViaw5MJ51M&list=RDxViaw5MJ51M&start_radio=1" target="_blank">Click Here</a></p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="jpop" class="music hidden">
+        <button onclick="previousPage()"
+            style="background-color:white;color:black;width:100px;min-height:25px;height:25px;font-size: 12px;display:block">Previous
+            Page</button>
+
+        <h1 style="text-align: center;margin-top:6px ;font-family: 'Plaster', cursive;">J-Pop Suspense Samples</h1>
+
+        <div class="content">
+
+            <div class="sample">
+                <p></p>
+                <audio controls>
+                    <source src="" type="audio/mp4">
+                </audio>
+                <p>Full Song: <a href="" target="_blank">Click Here</a></p>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <section id="kpop" class="music hidden">
+        <button onclick="previousPage()"
+            style="background-color:white;color:black;width:100px;min-height:25px;height:25px;font-size: 12px;display:block">Previous
+            Page</button>
+
+        <h1 style="text-align: center;margin-top:6px ;font-family: 'Plaster', cursive;">K-Pop Suspense Samples</h1>
+
+        <div class="content">
+
+            <div class="sample">
+                <p></p>
+                <audio controls>
+                    <source src="" type="audio/mp4">
+                </audio>
+                <p>Full Song: <a href="" target="_blank">Click Here</a></p>
+            </div>
+
+            <div class="sample">
+                <p></p>
+                <audio controls>
+                    <source src="" type="audio/mp4">
+                </audio>
+                <p>Full Song: <a href="" target="_blank">Click Here</a></p>
+            </div>
+
+
+            <div class="sample">
+                <p></p>
+                <audio controls>
+                    <source src="" type="audio/mp4">
+                </audio>
+                <p>Full Song: <a href="" target="_blank">Click Here</a></p>
+            </div>
+
+
+            <div class="sample">
+                <p></p>
+                <audio controls>
+                    <source src="" type="audio/mp4">
+                </audio>
+                <p>Full Song: <a href="" target="_blank">Click Here</a></p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="bollywood" class="music hidden">
+        <button onclick="previousPage()"
+            style="background-color:white;color:black;width:100px;min-height:25px;height:25px;font-size: 12px;display:block">Previous
+            Page</button>
+
+        <h1 style="text-align: center;margin-top:6px ;font-family: 'Plaster', cursive;">Bollywood Suspense Samples</h1>
+
+        <div class="content">
+
+            <div class="sample">
+                <p></p>
+                <audio controls>
+                    <source src="" type="audio/mp4">
+                </audio>
+                <p>Full Song: <a href="" target="_blank">Click Here</a></p>
+            </div>
+
+            <div class="sample">
+                <p></p>
+                <audio controls>
+                    <source src="" type="audio/mp4">
+                </audio>
+                <p>Full Song: <a href="" target="_blank">Click Here</a></p>
+            </div>
+
+
+            <div class="sample">
+                <p></p>
+                <audio controls>
+                    <source src="" type="audio/mp4">
+                </audio>
+                <p>Full Song: <a href="" target="_blank">Click Here</a></p>
+            </div>
+
+
+            <div class="sample">
+                <p></p>
+                <audio controls>
+                    <source src="" type="audio/mp4">
+                </audio>
+                <p>Full Song: <a href="" target="_blank">Click Here</a></p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="european" class="music hidden">
+        <button onclick="previousPage()"
+            style="background-color:white;color:black;width:100px;min-height:15px;height:25px;font-size: 12px;display:block">Previous
+            Page</button>
+
+        <h1 style="text-align: center;margin-top:6px ;font-family: 'Plaster', cursive;">European Suspense Samples</h1>
+
+        <div class="content">
+
+            <div class="sample">
+                <p></p>
+                <audio controls>
+                    <source src="" type="audio/mp4">
+                </audio>
+                <p>Full Song: <a href="" target="_blank">Click Here</a></p>
+            </div>
+
+            <div class="sample">
+                <p></p>
+                <audio controls>
+                    <source src="" type="audio/mp4">
+                </audio>
+                <p>Full Song: <a href="" target="_blank">Click Here</a></p>
+            </div>
+
+
+            <div class="sample">
+                <p></p>
+                <audio controls>
+                    <source src="" type="audio/mp4">
+                </audio>
+                <p>Full Song: <a href="" target="_blank">Click Here</a></p>
+            </div>
+
+
+            <div class="sample">
+                <p></p>
+                <audio controls>
+                    <source src="" type="audio/mp4">
+                </audio>
+                <p>Full Song: <a href="" target="_blank">Click Here</a></p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="cpop" class="music hidden">
+        <button onclick="previousPage()"
+            style="background-color:white;color:black;width:100px;min-height:15px;height:25px;font-size: 12px;display:block">Previous
+            Page</button>
+
+        <h1 style="text-align: center;margin-top:6px ;font-family: 'Plaster', cursive;">C-Pop Suspense Samples</h1>
+
+        <div class="content">
+
+            <div class="sample">
+                <p></p>
+                <audio controls>
+                    <source src="" type="audio/mp4">
+                </audio>
+                <p>Full Song: <a href="" target="_blank">Click Here</a></p>
+            </div>
+
+            <div class="sample">
+                <p></p>
+                <audio controls>
+                    <source src="" type="audio/mp4">
+                </audio>
+                <p>Full Song: <a href="" target="_blank">Click Here</a></p>
+            </div>
+
+
+            <div class="sample">
+                <p></p>
+                <audio controls>
+                    <source src="" type="audio/mp4">
+                </audio>
+                <p>Full Song: <a href="" target="_blank">Click Here</a></p>
+            </div>
+
+
+            <div class="sample">
+                <p></p>
+                <audio controls>
+                    <source src="" type="audio/mp4">
+                </audio>
+                <p>Full Song: <a href="" target="_blank">Click Here</a></p>
+            </div>
+
+        </div>
+
+    </section>
+    
+
+    <script src="script.js"></script>
+</body>
+
+</html>
