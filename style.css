@@ -287,6 +287,14 @@ a {
     gap:20px;
 }
 
+.ccontent {
+    display:flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap:20px;
+    width:50%;
+}
+
 .header-content {
     display: flex;
     flex-wrap: wrap;
