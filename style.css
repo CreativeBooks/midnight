@@ -124,6 +124,16 @@ button {
 }
 
 @media screen and (max-width: 600px) {
+    .content {
+        flex-direction: column;
+        flex-basis: 100%;
+        align-items: center;
+    }
+
+    .ccontent{
+        width: 80% !important;
+    }
+
     .button-container button {
         width: 90%;
         height: auto;
@@ -267,32 +277,34 @@ button {
     font-size: 20px;
     display: inline-block;
     margin: 8px 0 8px 0;
-    
+
 }
 
 .sample audio {
     max-width: 300px;
-    display:block;
-    margin:0 auto;
+    display: block;
+    margin: 0 auto;
 }
 
 a {
-    color:white;
+    color: white;
 }
 
 .content {
-    display:flex; 
-    flex-wrap: wrap; 
-    justify-content: center; 
-    gap:20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
 
 .ccontent {
-    display:flex; 
-    flex-wrap: wrap; 
-    justify-content: center; 
-    gap:20px;
-    width:35%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 35%;
+    border: 4px solid white;
+    background-color: black;
 }
 
 .header-content {
