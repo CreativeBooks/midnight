@@ -311,3 +311,97 @@ a {
     display: flex;
     flex-wrap: wrap;
 }
+
+.pop_1 {
+    background-image:url('https://s3.envato.com/files/78cd65ea-cab8-49a1-9bd3-e620f867e038/inline_image_preview.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    min-height:100vh;
+    margin-top:0;
+}
+
+.jpop_1 {
+    background-image:url('https://i.ytimg.com/vi/Ks3OxeqsNuc/maxresdefault.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    min-height:100vh;
+    margin-top:0;
+}
+
+.kpop_1 {
+    background-image:url('https://img.jakpost.net/c/2018/10/29/2018_10_29_57313_1540787894._large.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    min-height:100vh;
+    margin-top:0;
+}
+
+.bollywood_1 {
+    background-image:url('https://wallpapercave.com/wp/wp7507146.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    min-height:100vh;
+    margin-top:0;
+}
+
+.european_1 {
+    background-image:url('https://images.squarespace-cdn.com/content/v1/646b6f89639d682e10552b5a/1720102013577-XAQ3QBVDMHNT820I1JYQ/E%CC%81poque+musique.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    min-height:100vh;
+    margin-top:0;
+}
+
+.cpop_1 {
+     background-image:url('https://www.shutterstock.com/image-vector/music-themed-background-arabic-instruments-600nw-1689350929.jpg');
+     background-repeat: no-repeat; 
+     background-size: cover;
+     min-height:100vh;
+     margin-top:0;
+}
+
+.piano_1 {
+    background-image:url('https://static.vecteezy.com/system/resources/thumbnails/070/705/990/small/grand-piano-on-stage-with-dramatic-lighting-musical-performance-and-artistic-expression-photo.jpeg');
+    background-repeat: no-repeat; 
+    background-size:cover;
+    height:100vh;
+}
+
+.guitar_1 {
+    background-image:url('https://t3.ftcdn.net/jpg/10/42/22/16/360_F_1042221617_wwPmfkXzXH7iWcVvRpT6IE8H3XQbp2qC.jpg');
+    background-repeat: no-repeat; 
+    background-size:cover;
+    height:100vh;
+}
+
+.violin_1 {
+    background-image:url('https://media.istockphoto.com/id/1026811264/photo/vision-of-music.jpg?s=612x612&w=0&k=20&c=ujMTPY0Y96SxU9G5trJVxicapfx-Q_gn1-YkjtrL3c8=');
+    background-repeat: no-repeat; 
+    background-size:cover;
+    height:100vh;
+}
+
+.flute_1 {
+    background-image:url('https://thumbs.dreamstime.com/b/flute-colored-smoke-black-background-generative-ai-285448814.jpg');
+    background-repeat: no-repeat; 
+    background-size:cover;
+    height:100vh;
+}
+
+.drums_1 {
+    background-image:url('https://img.freepik.com/premium-photo/drum-set-with-drums-colorful-background_854605-12431.jpg');
+    background-repeat: no-repeat; 
+    background-size:cover;
+    height:100vh;
+}
+
+.allcombine_1 {
+    background-image:url('https://t3.ftcdn.net/jpg/06/86/21/08/360_F_686210858_aIwPRN3nqWzVkZQCzo6QgKjCqBAuQdTi.jpg');
+    background-repeat: no-repeat; 
+    background-size:cover;
+    height:100vh;
+}
+
+.sample_1{
+    margin:10px;
+}
