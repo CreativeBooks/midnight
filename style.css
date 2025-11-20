@@ -130,7 +130,7 @@ button {
         align-items: center;
     }
 
-    .ccontent{
+    .ccontent {
         width: 80% !important;
     }
 
@@ -313,103 +313,311 @@ a {
 }
 
 .pop_1 {
-    background-image:url('https://s3.envato.com/files/78cd65ea-cab8-49a1-9bd3-e620f867e038/inline_image_preview.jpg');
-    background-repeat: no-repeat; 
+    background-image: url('https://s3.envato.com/files/78cd65ea-cab8-49a1-9bd3-e620f867e038/inline_image_preview.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
-    min-height:100vh;
-    margin-top:0;
+    min-height: 100vh;
+    margin-top: 0;
 }
 
 .jpop_1 {
-    background-image:url('https://i.ytimg.com/vi/Ks3OxeqsNuc/maxresdefault.jpg');
-    background-repeat: no-repeat; 
+    background-image: url('https://i.ytimg.com/vi/Ks3OxeqsNuc/maxresdefault.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
-    min-height:100vh;
-    margin-top:0;
+    min-height: 100vh;
+    margin-top: 0;
 }
 
 .kpop_1 {
-    background-image:url('https://img.jakpost.net/c/2018/10/29/2018_10_29_57313_1540787894._large.jpg');
-    background-repeat: no-repeat; 
+    background-image: url('https://img.jakpost.net/c/2018/10/29/2018_10_29_57313_1540787894._large.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
-    min-height:100vh;
-    margin-top:0;
+    min-height: 100vh;
+    margin-top: 0;
 }
 
 .bollywood_1 {
-    background-image:url('https://wallpapercave.com/wp/wp7507146.jpg');
-    background-repeat: no-repeat; 
+    background-image: url('https://wallpapercave.com/wp/wp7507146.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
-    min-height:100vh;
-    margin-top:0;
+    min-height: 100vh;
+    margin-top: 0;
 }
 
 .european_1 {
-    background-image:url('https://images.squarespace-cdn.com/content/v1/646b6f89639d682e10552b5a/1720102013577-XAQ3QBVDMHNT820I1JYQ/E%CC%81poque+musique.jpg');
-    background-repeat: no-repeat; 
+    background-image: url('https://images.squarespace-cdn.com/content/v1/646b6f89639d682e10552b5a/1720102013577-XAQ3QBVDMHNT820I1JYQ/E%CC%81poque+musique.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
-    min-height:100vh;
-    margin-top:0;
+    min-height: 100vh;
+    margin-top: 0;
 }
 
 .cpop_1 {
-     background-image:url('https://www.shutterstock.com/image-vector/music-themed-background-arabic-instruments-600nw-1689350929.jpg');
-     background-repeat: no-repeat; 
-     background-size: cover;
-     min-height:100vh;
-     margin-top:0;
+    background-image: url('https://www.shutterstock.com/image-vector/music-themed-background-arabic-instruments-600nw-1689350929.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    margin-top: 0;
 }
 
 .piano_1 {
-    background-image:url('https://static.vecteezy.com/system/resources/thumbnails/070/705/990/small/grand-piano-on-stage-with-dramatic-lighting-musical-performance-and-artistic-expression-photo.jpeg');
-    background-repeat: no-repeat; 
-    background-size:cover;
-    height:100vh;
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/070/705/990/small/grand-piano-on-stage-with-dramatic-lighting-musical-performance-and-artistic-expression-photo.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
 .guitar_1 {
-    background-image:url('https://t3.ftcdn.net/jpg/10/42/22/16/360_F_1042221617_wwPmfkXzXH7iWcVvRpT6IE8H3XQbp2qC.jpg');
-    background-repeat: no-repeat; 
-    background-size:cover;
-    height:100vh;
+    background-image: url('https://t3.ftcdn.net/jpg/10/42/22/16/360_F_1042221617_wwPmfkXzXH7iWcVvRpT6IE8H3XQbp2qC.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
 .violin_1 {
-    background-image:url('https://media.istockphoto.com/id/1026811264/photo/vision-of-music.jpg?s=612x612&w=0&k=20&c=ujMTPY0Y96SxU9G5trJVxicapfx-Q_gn1-YkjtrL3c8=');
-    background-repeat: no-repeat; 
-    background-size:cover;
-    height:100vh;
+    background-image: url('https://media.istockphoto.com/id/1026811264/photo/vision-of-music.jpg?s=612x612&w=0&k=20&c=ujMTPY0Y96SxU9G5trJVxicapfx-Q_gn1-YkjtrL3c8=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
 .flute_1 {
-    background-image:url('https://thumbs.dreamstime.com/b/flute-colored-smoke-black-background-generative-ai-285448814.jpg');
-    background-repeat: no-repeat; 
-    background-size:cover;
-    height:100vh;
+    background-image: url('https://thumbs.dreamstime.com/b/flute-colored-smoke-black-background-generative-ai-285448814.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
 .drums_1 {
-    background-image:url('https://img.freepik.com/premium-photo/drum-set-with-drums-colorful-background_854605-12431.jpg');
-    background-repeat: no-repeat; 
-    background-size:cover;
-    height:100vh;
+    background-image: url('https://img.freepik.com/premium-photo/drum-set-with-drums-colorful-background_854605-12431.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
 .allcombine_1 {
-    background-image:url('https://t3.ftcdn.net/jpg/06/86/21/08/360_F_686210858_aIwPRN3nqWzVkZQCzo6QgKjCqBAuQdTi.jpg');
-    background-repeat: no-repeat; 
-    background-size:cover;
-    height:100vh;
+    background-image: url('https://t3.ftcdn.net/jpg/06/86/21/08/360_F_686210858_aIwPRN3nqWzVkZQCzo6QgKjCqBAuQdTi.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
-.sample_1{
-    margin:10px;
+.sample_1 {
+    margin: 10px;
 }
 
-html, body {
-    height: 100%; 
-    margin: 0; 
+html,
+body {
+    height: 100%;
+    margin: 0;
     overflow-x: hidden;
 }
 
+.petal {
+    position: absolute;
+    top: -50px;
+    width: 30px;
+    height: 30px;
+    background-image: url('flower.png');
+    background-size: cover;
+    opacity: 0.8;
+    animation: fall 10s linear infinite, float 3s ease-in-out infinite;
+    z-index: 2;
+}
+
+@keyframes fall {
+    0% {
+        top: -50px;
+        opacity: 0.8;
+    }
+
+    100% {
+        top: 100vh;
+        opacity: 0;
+    }
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-10px);
+    }
+
+    50% {
+        transform: translateX(10px);
+    }
+
+    75% {
+        transform: translateX(-10px);
+    }
+}
+
+.petal:nth-child(1) {
+    animation-delay: 0s;
+    left: 10%;
+}
+
+.petal:nth-child(2) {
+    animation-delay: 2s;
+    left: 20%;
+}
+
+.petal:nth-child(3) {
+    animation-delay: 4s;
+    left: 10%;
+}
+
+.petal:nth-child(4) {
+    animation-delay: 6s;
+    left: 40%;
+}
+
+.petal:nth-child(5) {
+    animation-delay: 8s;
+    left: 900%;
+}
+
+.petal:nth-child(6) {
+    animation-delay: 1s;
+    left: 60%;
+}
+
+.petal:nth-child(7) {
+    animation-delay: 3s;
+    left: 70%;
+}
+
+.petal:nth-child(8) {
+    animation-delay: 5s;
+    left: 20%;
+}
+
+.petal:nth-child(9) {
+    animation-delay: 7s;
+    left: 90%;
+}
+
+.petal:nth-child(10) {
+    animation-delay: 9s;
+    left: 30%;
+}
+
+.petal:nth-child(11) {
+    animation-delay: 3s;
+    left: 80%;
+}
+
+.petal:nth-child(12) {
+    animation-delay: 7s;
+    left: 60%;
+}
+
+.petal:nth-child(13) {
+    animation-delay: 1s;
+    left: 90%;
+}
+
+.petal:nth-child(14) {
+    animation-delay: 10s;
+    left: 70%;
+}
+
+.ghost {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-image: url('ghost.png');
+    background-size: cover;
+    opacity: 0.8;
+    animation: float 3s ease-in-out infinite, travel 12s linear infinite;
+}
+
+.ghost-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%);
+    animation: float 3s ease-in-out infinite, bob 4s ease-in-out infinite;
+}
+
+
+
+.ghost-wrapper:nth-child(1) .ghost {
+    animation-delay: 2s, 0s; 
+}
+
+.ghost-wrapper:nth-child(2) .ghost {
+    animation-delay: 5s, 8s;
+}
+
+.ghost-wrapper:nth-child(3) .ghost {
+    animation-delay: 4s, 5s;
+}
+
+.ghost-wrapper:nth-child(4) .ghost {
+    animation-delay: 1s, 11s;
+}
+
+.ghost-wrapper:nth-child(5) .ghost {
+    animation-delay: 0s, 15s;
+}
+
+.ghost-wrapper:nth-child(6) .ghost {
+    animation-delay: 6s, 6s;
+}
+
+.ghost-wrapper:nth-child(7) .ghost {
+    animation-delay: 2s, 6s;
+}
+
+
+
+@keyframes floatY {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    25% {
+        transform: translate(-10px, -8px);
+    }
+
+    50% {
+        transform: translate(10px, 0px);
+    }
+
+    75% {
+        transform: translate(-10px, 8px);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes travel {
+    0% {
+        transform: translateX(0) translateY(-50%);
+    }
+
+    100% {
+        transform: translateX(-120vw) translateY(-50%);
+    }
+}
+
+@keyframes bob {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
 
