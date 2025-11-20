@@ -9,11 +9,15 @@
     <title>Romance Vocal</title>
     <style>
         body {
-            background-color: black;
             transition: opacity 0.5s ease;
             opacity: 1;
             color: white;
-
+            background: linear-gradient(to right, #3e1c2e, #0a1f4f);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: relative;
+            z-index: 1;
         }
 
         body.fade-out {
@@ -51,6 +55,120 @@
             display: block;
             margin: 0 auto;
         }
+
+        .petal {
+            position: absolute;
+            top: -50px;
+            width: 30px;
+            height: 30px;
+            background-image: url('flower.png');
+            background-size: cover;
+            opacity: 0.8;
+            animation: fall 10s linear infinite, float 3s ease-in-out infinite;
+            z-index: 2;
+        }
+
+        @keyframes fall {
+            0% {
+                top: -50px;
+                opacity: 0.8;
+            }
+
+            100% {
+                top: 100vh;
+                opacity: 0;
+            }
+        }
+
+        @keyframes float {
+
+            0%,
+            100% {
+                transform: translateX(0);
+            }
+
+            25% {
+                transform: translateX(-10px);
+            }
+
+            50% {
+                transform: translateX(10px);
+            }
+
+            75% {
+                transform: translateX(-10px);
+            }
+        }
+
+        .petal:nth-child(1) {
+            animation-delay: 0s;
+            left: 10%;
+        }
+
+        .petal:nth-child(2) {
+            animation-delay: 2s;
+            left: 20%;
+        }
+
+        .petal:nth-child(3) {
+            animation-delay: 4s;
+            left: 10%;
+        }
+
+        .petal:nth-child(4) {
+            animation-delay: 6s;
+            left: 40%;
+        }
+
+        .petal:nth-child(5) {
+            animation-delay: 8s;
+            left: 900%;
+        }
+
+        .petal:nth-child(6) {
+            animation-delay: 1s;
+            left: 60%;
+        }
+
+        .petal:nth-child(7) {
+            animation-delay: 3s;
+            left: 70%;
+        }
+
+        .petal:nth-child(8) {
+            animation-delay: 5s;
+            left: 20%;
+        }
+
+        .petal:nth-child(9) {
+            animation-delay: 7s;
+            left: 90%;
+        }
+
+        .petal:nth-child(10) {
+            animation-delay: 9s;
+            left: 30%;
+        }
+
+         .petal:nth-child(11) {
+            animation-delay: 3s;
+            left: 80%;
+        }
+
+         .petal:nth-child(12) {
+            animation-delay: 7s;
+            left: 60%;
+        }
+
+         .petal:nth-child(13) {
+            animation-delay: 1s;
+            left: 90%;
+        }
+
+         .petal:nth-child(14) {
+            animation-delay: 10s;
+            left: 70%;
+        }
     </style>
 
 </head>
@@ -63,6 +181,22 @@
     </a>
     <h1 style="font-family: 'Plaster', cursive; text-align: center;color:white">Vocal</h1>
     <h2 style="font-family: 'economica', cursive;text-align: center;color:white">Pick Your Genre</h2>
+    <div class="petals-container">
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+    </div>
+
     <div class="table-container responsive-table button container">
         <div class="button-container">
             <div class="pop">
@@ -156,7 +290,8 @@
                 style="background-color:white;color:black;width:100px;min-height:25px;height:25px;font-size: 12px;display:block">Previous
                 Page</button>
 
-            <h1 style="text-align: center;margin-top:6px ;font-family: 'Plaster', cursive;color:black;">J-Pop Romance
+            <h1 style="text-align: center;margin-top:6px ;font-family: 'Plaster', cursive;color:black;">J-Pop
+                Romance
                 Samples</h1>
 
             <div class="content">
@@ -215,7 +350,8 @@
                 style="background-color:white;color:black;width:100px;min-height:25px;height:25px;font-size: 12px;display:block">Previous
                 Page</button>
 
-            <h1 style="text-align: center;margin-top:6px ;font-family: 'Plaster', cursive;">K-Pop Romance Samples</h1>
+            <h1 style="text-align: center;margin-top:6px ;font-family: 'Plaster', cursive;">K-Pop Romance Samples
+            </h1>
 
             <div class="content">
                 <div class="ccontent" style="border-right:2px solid white;">
@@ -273,7 +409,8 @@
                 style="background-color:white;color:black;width:100px;min-height:25px;height:25px;font-size: 12px;display:block">Previous
                 Page</button>
 
-            <h1 style="text-align: center;margin-top:6px ;font-family: 'Plaster', cursive;">Bollywood Romance Samples
+            <h1 style="text-align: center;margin-top:6px ;font-family: 'Plaster', cursive;">Bollywood Romance
+                Samples
             </h1>
 
             <div class="content">
@@ -365,7 +502,8 @@
                 style="background-color:white;color:black;width:100px;min-height:15px;height:25px;font-size: 12px;display:block">Previous
                 Page</button>
 
-            <h1 style="text-align: center;margin-top:6px ;font-family: 'Plaster', cursive;">C-Pop Romance Samples</h1>
+            <h1 style="text-align: center;margin-top:6px ;font-family: 'Plaster', cursive;">C-Pop Romance Samples
+            </h1>
 
             <div class="content">
                 <div class="ccontent">

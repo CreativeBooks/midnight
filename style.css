@@ -405,3 +405,11 @@ a {
 .sample_1{
     margin:10px;
 }
+
+html, body {
+    height: 100%; 
+    margin: 0; 
+    overflow-x: hidden;
+}
+
+
