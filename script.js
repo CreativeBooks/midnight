@@ -29,3 +29,8 @@ audios.addEventListener('play', () => {
     });
 });
 
+const petals = document.querySelectorAll(".petal");
+petals.forEach(p => {
+    p.style.left = Math.random() * 100 + "vw";
+    p.style.animationDuration = 3 + Math.random()*4 + "s";
+});
