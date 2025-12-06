@@ -536,6 +536,7 @@ body {
     opacity: 0.8;
     animation: float 3s ease-in-out infinite, travel 12s linear infinite;
     z-index: 10;
+    pointer-events: none;
 }
 
 .ghost-wrapper {
@@ -545,6 +546,7 @@ body {
     transform: translateY(-50%);
     animation: float 3s ease-in-out infinite, bob 4s ease-in-out infinite;
     z-index: 10;
+    pointer-events: none;
 }
 
 
