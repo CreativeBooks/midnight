@@ -423,6 +423,7 @@ body {
     opacity: 0.8;
     animation: fall 10s linear infinite, float 3s ease-in-out infinite;
     z-index: 2;
+    pointer-events: none;
 }
 
 @keyframes fall {
